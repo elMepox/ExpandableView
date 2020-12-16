@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/big_padding"
+    android:paddingTop="@dimen/large_padding"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <com.example.testexpandview.ExpandableView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_title_text="@string/title"
+        app:layout_subtitle_text="@string/subtitle"/>
+    <com.example.testexpandview.ExpandableView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_title_text="@string/title"
+        app:layout_subtitle_text="@string/subtitle"/>
+    <com.example.testexpandview.ExpandableView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_title_text="@string/title"
+        app:layout_subtitle_text="@string/subtitle"/>
+    <com.example.testexpandview.ExpandableView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_title_text="@string/title"
+        app:layout_subtitle_text="@string/subtitle"/>
+
+</LinearLayout>

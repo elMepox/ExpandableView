@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableView">
+        <attr name="layout_title_text" format="string"/>
+        <attr name="layout_subtitle_text" format="string"/>
+    </declare-styleable>
+</resources>
